@@ -26,7 +26,7 @@ All colors MUST be HSL.
     --secondary-foreground: 130 50% 25%;
 
     --muted: 150 10% 96%;
-    --muted-foreground: 150 5% 45%;
+    --muted-foreground: 150 8% 35%;
 
     --accent: 130 45% 92%;
     --accent-foreground: 130 50% 25%;
@@ -115,5 +115,10 @@ All colors MUST be HSL.
 
   h1, h2, h3 {
     @apply font-heading;
+  }
+
+  /* Global icon stroke width for better visibility */
+  svg {
+    stroke-width: 2.5;
   }
 }
